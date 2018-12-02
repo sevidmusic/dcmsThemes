@@ -1,0 +1,258 @@
+/**
+ * Base Styles.
+ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+/**
+ * Container styles.
+ */
+.dcms-admin-container {
+    /* // base color // background: #0e242f;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e242f+0,7db9e8+100&1+0,0+100 */
+    background: -moz-linear-gradient(left, rgba(14,36,47,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(14,36,47,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(14,36,47,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e242f', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: .9em;
+    color: #b7dde5;
+    text-shadow: 3px 5px 3px #050505;
+}
+
+.dcms-short-container {
+    height: 250px;
+    overflow: auto;
+}
+
+.dcms-medium-container {
+    height: 500px;
+    overflow: auto;
+}
+
+.dcms-sub-container {
+    background: #0b151c;
+    border: 3px solid #ffffff;
+    padding: 20px;
+    overflow: auto;
+    margin: 31px auto;
+    box-shadow: 4px 4px 20px 7px #08404c;
+}
+
+/**
+ * Widths
+ */
+
+.dcms-full-width {
+    width: 100%;
+}
+
+.dcms-three-quarter-width {
+    width: 75%;
+}
+
+.dcms-third-width {
+    width: 33.33%;
+}
+
+.dcms-half-width {
+    width: 50%;
+}
+
+.dcms-quarter-width {
+    width: 25%;
+}
+
+/**
+ * Text styles.
+ */
+.dcms-positive-text {
+    color: #61ffb0;
+}
+
+.dcms-negative-text {
+    color: #c2282b;
+}
+
+.dcms-descriptive-text {
+    color: #ffffff;
+}
+
+.dcms-descriptive-text-highlight {
+    color: #1f70ff;
+}
+
+.dcms-warning-text {
+    color: #f54f00;
+}
+
+/**
+ * Hover Styles.
+ */
+.dcms-hover:hover {
+    border: 2px solid #47e9ff;
+}
+
+/**
+ * Meta Styles
+ */
+
+.dcms-container-border-right {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.dcms-container-border-center {
+    border-radius: 20px;
+}
+
+.dcms-container-border-left {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.dcms-container-border-middle {
+    border-radius: 0px;
+}
+
+.dcms-float-left {
+    float: left;
+}
+
+.dcms-float-right {
+    float: right;
+}
+
+.dcms-clear-float {
+    clear: both;
+}
+
+/**
+ * Form styles
+ */
+
+.dcms-simple-select {
+    background: #000000;
+    color: darkcyan;
+    width: 10%;
+    min-width: 50px;
+    font-size: .9em;
+    border: 3px solid #ffffff;
+}
+
+.dcms-simple-select:focus {
+    color: #ffffff;
+}
+
+/**
+ * Debug styles.
+ */
+.xdebug-var-dump {
+    color: #ffffff;
+    font-size: 1.35em;
+    background: #0b0915;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px dashed #a8ff83;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+/**
+ * Link Styles
+ */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #1f70ff;
+    font-size: 1.5em;
+}
+
+.dcms-small-link {
+    font-size: .7em;
+}
+
+.dcms-small-link:hover {
+    font-size: .7em;
+}
+
+.dcms-medium-link {
+    font-size: .9em;
+}
+
+.dcms-medium-link:hover {
+    font-size: .9em;
+}
+
+.dcms-large-link {
+    font-size: 1.1em;
+}
+
+.dcms-large-link:hover {
+    font-size: 1.1em;
+}
+
+.dcms-extra-large-link {
+    font-size: 1.3em;
+}
+
+.dcms-extra-large-link:hover {
+    font-size: 1.3em;
+}
+
+/**
+ * drag element Styles
+ */
+.dragHandle {
+    background: #0b151c;
+    padding: 5px;
+    font-size: .9em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 384px;
+    border: 3px solid #ffffff;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+}
+
+.sticky-menu {
+    font-size: .5em;
+    background: #000000;
+    border: 3px solid #ffffff;
+    padding: 5px;
+}
+
+.sticky-menu-link {
+    margin-right: 20px;
+}
+
+[draggable=true] {
+    cursor: move;
+}
+
+[draggable=false] {
+    cursor: not-allowed;
+}
+
+/**
+ * end drag element Styles
+ */

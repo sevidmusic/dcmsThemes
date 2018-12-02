@@ -13,10 +13,10 @@
 }
 
 .am-advanced-link, .am-simple-link {
-    position: fixed;
-    top: 32px;
-    right: 35px;
-    z-index: 100;
+    /* position: absolute; */
+    /* top: 80px; */
+    /* right: 17px; */
+    /* z-index: 100; */
 }
 
 .am-app-logo-img {
@@ -29,13 +29,16 @@
 
 .am-toolbar-container {
     background: #000000;
-    position: fixed;
-    top: 0;
+    position: sticky;
+    top: 79px;
     width: 100%;
-    padding: 20px;
-    height: 93px;
+    padding: 12px;
+    margin-bottom: 20px;
+    /* height: 93px; */
     border-bottom: 3px solid #ffffff;
-    overflow: auto;
+    /* resize: vertical; */
+    /* overflow: auto; */
+    /* border-top: 1px solid red; */
 }
 
 #amMsg {
@@ -44,9 +47,34 @@
 
 .am-view-links-container {
     background: #000000;
-    position: fixed;
-    top: 93px;
+    position: sticky;
+    top: 33px;
     width: 100%;
-    padding: 20px;
+    padding: 12px;
     border-bottom: 3px solid #ffffff;
+    font-size: .7em;
+    /* border-top: 1px solid red; */
+}
+
+#AppManagerContainer {
+    width: 62%;
+    height: 420px;
+    overflow: auto;
+    padding: 0px;
+    position: fixed;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    resize: both;
+    background: #000000;
+    padding: 20px;
+    top: 30px;
+    left: 10px;
+}
+
+#AppManagerContainerHandle {
+}
+
+.am-sa-link-container {
+    font-size: .7em;
+    text-align: right;
 }
