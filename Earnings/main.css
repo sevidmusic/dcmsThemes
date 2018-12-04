@@ -3,7 +3,9 @@
   */
 .earnings-punch-display {
     width: 35%;
-    min-width: 430px;
+    min-width: 505px;
+    max-width: 1640px;
+    max-height: 825px;
     height: 420px;
     overflow: auto;
     position: fixed;
@@ -119,7 +121,7 @@
 }
 
 .earnings-small-text {
-    font-size: .8em;
+    font-size: .69em;
 }
 
 .earnings-negative-value {

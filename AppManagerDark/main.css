@@ -69,6 +69,8 @@
     padding: 20px;
     top: 30px;
     left: 10px;
+    max-width: 1640px;
+    max-height: 825px;
 }
 
 #AppManagerContainerHandle {

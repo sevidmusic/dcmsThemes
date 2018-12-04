@@ -1,0 +1,10 @@
+.ar-frame {
+    z-index: -1000; /* Prevent a-frame from interfering / blocking other elements */
+}
+
+/* DEV NOTE: Many styles cannot be defined for generated elements here b/c they will be overwritten by ARFrame.js's
+       auto generated css files, which are not accessible, or at least i have not found where the are generated
+       in the code yet, hint: haven't looked in aframe.js, may be there... @see line 62080 of ARFrame.js to
+       manually overwrite ARFrame.js's auto generated css files's style definitions. */
+.a-enter-vr.embedded {} /* Definitions not respected! see note above! */
+.a-enter-vr-button {} /* Definitions not respected! see note above! */
