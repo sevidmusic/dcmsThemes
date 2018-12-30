@@ -9,6 +9,6 @@
 .a-enter-vr.embedded {} /* Definitions not respected! see note above! */
 .a-enter-vr-button {} /* Definitions not respected! see note above! */
 
-a-scene { /* @todo ! Need to figure out a more reliable way to style ARFrame elements.*EOL*The ar.js and a-frame library seem to enforce their own styles on some elements, we need to be able to enforce our own styles as defined by the ARFrame theme or via a js file in the ARFrame library, could be called ARFrameStyles.js.*EOL*This file would be responsible for implementing the js needed to overwrite the default ar/a-frame styles*EOL*Most likely will have to be a js solution.*EOL*Also need to get a better grasp of what elements can have their styles honored as defined by ARFrame/main.css */
+a-scene { /* @todo Need to figure out a more reliable way to style ARFrame elements.*EOL*The ar.js and a-frame library seem to enforce their own styles on some elements, we need to be able to enforce our own styles as defined by the ARFrame theme or via a js file in the ARFrame library, could be called ARFrameStyles.js.*EOL*This file would be responsible for implementing the js needed to overwrite the default ar/a-frame styles*EOL*Most likely will have to be a js solution.*EOL*Also need to get a better grasp of what elements can have their styles honored as defined by ARFrame/main.css */
     z-index: -1000;
 }
