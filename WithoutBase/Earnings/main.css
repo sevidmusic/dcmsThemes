@@ -1,3 +1,23 @@
+/**
+  * Styles to assign to the outermost container of all other Earnings app elements.
+  */
+.earnings-punch-display {
+    width: 35%;
+    min-width: 505px;
+    max-width: 1640px;
+    max-height: 825px;
+    height: 420px;
+    overflow: auto;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    background: #040e21;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    resize: both;
+    font-size: 1.3em;
+}
 
 .earnings-key-text {
     color: #DDDDDD;
@@ -41,7 +61,7 @@
 }
 
 .earnings-msg {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 /* Invoice Styles */
@@ -110,25 +130,7 @@
 
 .earnings-emphasized-text {
     font-size: 1.1em;
-    border-radius: 20px;
+    border-radius:20px;
     background: #494949;
     padding: 10px;
-}
-
-
-.earnings-sticky {
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-}
-
-.earnings-sticky-menu {
-    font-size: .5em;
-    background: #000000;
-    border: 1px solid #ffffff;
-    padding: 5px;
-}
-
-.earnings-sticky-menu-link {
-    margin-right: 20px;
 }

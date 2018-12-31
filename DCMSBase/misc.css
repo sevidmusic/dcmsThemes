@@ -8,3 +8,8 @@ Only the following properties should be defined in this stylesheet:
 - user-select
 - caret-color
 */
+
+.dcms-admin-panel {
+    resize: both;
+}
+

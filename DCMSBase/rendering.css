@@ -24,3 +24,34 @@ Only the following properties should be defined in this stylesheet:
 - counter-increment
 - counter-reset
 */
+
+* {
+    box-sizing: border-box;
+}
+
+.dcms-admin-panel {
+    overflow: auto;
+    opacity: 0.97;
+}
+
+[draggable=true] {
+    cursor: move;
+    z-index: 5000;
+}
+
+[draggable=false] {
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 959px) {
+    .dcms-drag-handle {
+        display: none;
+    }
+}
+
+/**
+ * Debug styles.
+ */
+.xdebug-var-dump {
+    overflow: auto;
+}

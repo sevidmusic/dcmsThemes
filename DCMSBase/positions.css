@@ -7,3 +7,40 @@ Only the following properties should be defined in this stylesheet:
 - bottom
 - position
 */
+
+@media only screen and (min-width: 960px) {
+
+    .dcms-admin-panel {
+        position: absolute;
+        top: 600px;
+        right: 0;
+        left: 1100px;
+    }
+
+    .dcms-drag-handle {
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+
+    .dcms-admin-panel-pos1 {
+        top: 4px;
+        left: 3px;
+    }
+
+    .dcms-admin-panel-pos2 {
+        top: 391px;
+        left: 3px;
+    }
+
+    .dcms-admin-panel-pos3 {
+        top: 4px;
+        left: 63.86%;
+    }
+
+    .dcms-admin-panel-pos4 {
+        top: 391px;
+        left: 63.86%;
+    }
+}
+

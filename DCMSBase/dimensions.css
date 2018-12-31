@@ -18,3 +18,52 @@ Only the following properties should be defined in this stylesheet:
 - min-height
 - min-width
 */
+
+.dcms-admin-panel{
+    padding: 20px;
+}
+
+.dcms-drag-handle {
+    width: 100%;
+    padding: 3px;
+    margin: 10px auto;
+}
+
+@media only screen and (min-width: 960px) {
+    .dcms-admin-panel {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 960px) {
+    .dcms-admin-panel {
+        height: 33.3333%;
+        width: 33.3333%;
+    }
+    .dcms-admin-panel-pos1 {
+        width: 63.62%;
+        height: 385px; /* 42% */
+    }
+
+    .dcms-admin-panel-pos2 {
+        width: 63.62%;
+        height: 53%;
+    }
+
+    .dcms-admin-panel-pos3 {
+        width: 36%;
+        height: 385px; /* 42% */
+    }
+
+    .dcms-admin-panel-pos4 {
+        width: 36%;
+        height: 53%;
+    }
+}
+
+/**
+ * Debug styles.
+ */
+.xdebug-var-dump {
+    padding: 20px;
+    margin: 20px auto;
+}

@@ -12,3 +12,18 @@ Only the following properties should be defined in this stylesheet:
 - background-repeat
 - background-size
 */
+
+.dcms-admin-panel {
+    background: #0b0915;
+}
+
+.dcms-drag-handle { /* @todo: Refactor/rename to dcmsdcms-drag-handle */
+    background: #040e21;
+}
+
+/**
+ * Debug styles.
+ */
+.xdebug-var-dump {
+    background: #0b0915;
+}

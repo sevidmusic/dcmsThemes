@@ -1,3 +1,21 @@
+.todo-container {
+    overflow: auto;
+    width: 99%;
+    min-width: 1285px;
+    max-width: 1645px;
+    height: 420px;
+    max-height: 808px;
+    font-size: 1.3em;
+    position: fixed;
+    top: 470px;
+    left: 10px;
+    background: #000000;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+    font-family: monospace;
+    resize: both;
+}
+
 .todo-ajax-output {
     padding: 20px;
 }
