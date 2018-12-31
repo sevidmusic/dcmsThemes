@@ -1,0 +1,18 @@
+/**
+Only the following properties should be defined in this stylesheet:
+
+- clear
+- float
+*/
+
+.dcms-float-right {
+    float: right;
+}
+
+.dcms-float-left {
+    float: left;
+}
+
+.dcms-clear-float {
+    clear: both;
+}

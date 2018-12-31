@@ -1,0 +1,110 @@
+.am-app-logo-container {
+    margin: 0 3px 0 0;
+    width: 150px;
+    height: 150px;
+    /*
+    background: url('http://localhost:8888/DarlingCms/apps/AppManager/resources/images/DcmsAppManagerDefaultAppImg.png') no-repeat center;
+    background-size: cover; /* Force bg img to auto scale to element width/height @see https://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion */
+    box-shadow: 4px 4px 20px 7px #08404c;
+}
+
+.am-app-enabled-select {
+    margin: 56px 0 0 0;
+    background: #000000;
+    color: darkcyan;
+    width: 10%;
+    min-width: 50px;
+    font-size: .9em;
+    border: 3px solid #ffffff;
+}
+
+.am-advanced-link, .am-simple-link {
+    /* position: absolute; */
+    /* top: 80px; */
+    /* right: 17px; */
+    /* z-index: 100; */
+}
+
+.am-app-logo-img {
+    width: 100%;
+}
+
+.am-msg-container {
+    color: #1f70ff;
+}
+
+.am-toolbar-container {
+    position: sticky;
+    top: 0px;
+}
+
+#am-message {
+    color: lightgreen;
+}
+
+.am-view-links-container {
+    background: #000000;
+    position: sticky;
+    top: 27px;
+    width: 100%;
+    padding: 12px;
+    border-bottom: 9px solid #ffffff;
+    font-size: .7em;
+    z-index: 5000;
+}
+
+.am-view-links-container a {
+    background: #000000;
+    border: 1px double #ffffff;
+    padding: 3px 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#AppManagerContainer {
+    width: 62%;
+    height: 420px;
+    overflow: auto;
+    position: fixed;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    resize: both;
+    background: #000000;
+    padding: 20px;
+    top: 30px;
+    left: 10px;
+    max-width: 1640px;
+    max-height: 825px;
+}
+
+#AppManagerContainerHandle {
+}
+
+.am-sa-link-container {
+    font-size: .7em;
+    text-align: right;
+}
+
+.am-appInfo-container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e242f+0,070f1c+74,7db9e8+100&1+0,0.92+27,0.83+53,0+100 */
+    background: -moz-linear-gradient(45deg, rgba(14, 36, 47, 1) 0%, rgba(11, 28, 40, 0.92) 27%, rgba(9, 21, 33, 0.83) 53%, rgba(7, 15, 28, 0.46) 74%, rgba(125, 185, 232, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(14, 36, 47, 1) 0%, rgba(11, 28, 40, 0.92) 27%, rgba(9, 21, 33, 0.83) 53%, rgba(7, 15, 28, 0.46) 74%, rgba(125, 185, 232, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(14, 36, 47, 1) 0%, rgba(11, 28, 40, 0.92) 27%, rgba(9, 21, 33, 0.83) 53%, rgba(7, 15, 28, 0.46) 74%, rgba(125, 185, 232, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e242f', endColorstr='#007db9e8', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: .9em;
+    color: #b7dde5;
+    text-shadow: 3px 5px 3px #050505;
+}
+
+.am-appInfo-sub-container {
+    box-shadow: 4px 4px 20px 7px #000000;
+    margin: 20px auto;
+    padding: 20px;
+    width: 99%;
+    opacity: 0.75;
+    background: #020307;
+}
