@@ -53,7 +53,6 @@ Only the following properties should be defined in this stylesheet:
     border-radius: 20px;
 }
 
-.dcms-input-submit {
-    border: #1f70ff;
-    border-radius: 9px;
+.dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
+    border-radius: 3px;
 }

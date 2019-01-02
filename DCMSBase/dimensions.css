@@ -73,3 +73,8 @@ Only the following properties should be defined in this stylesheet:
 .dcms-input-submit {
     padding: 9px;
 }
+
+.dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}

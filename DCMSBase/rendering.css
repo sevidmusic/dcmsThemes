@@ -56,6 +56,10 @@ Only the following properties should be defined in this stylesheet:
     overflow: auto;
 }
 
+.dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
+    display: block;
+}
+
 .dcms-input-submit {
     cursor: pointer;
 }
