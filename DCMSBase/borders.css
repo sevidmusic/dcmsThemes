@@ -54,5 +54,30 @@ Only the following properties should be defined in this stylesheet:
 }
 
 .dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
-    border-radius: 3px;
+    border-radius: 20px;
+    border: 2px double #788598;
+}
+
+.dcms-link, .dcms-button {
+    border-radius: 20px;
+    border: 2px double #788598;
+}
+
+.dcms-link:hover, .dcms-button:hover {
+    border: 2px solid #ffffff;
+}
+
+.dcms-link a {
+}
+
+.dcms-link a:link {
+}
+
+.dcms-link a:visited {
+}
+
+.dcms-link a:hover {
+}
+
+.dcms-link a:active {
 }

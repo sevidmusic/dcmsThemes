@@ -78,3 +78,22 @@ Only the following properties should be defined in this stylesheet:
     padding: 5px 15px;
     margin-bottom: 10px;
 }
+
+/*
+@devNote :
+Remember that the link style definition order MUST be as follows:
+  :link,
+  :visited
+  :hover,
+  :active,
+
+@see https://www.w3schools.com/css/tryit.asp?filename=trycss_link for further information. */
+.dcms-link, .dcms-button {
+    padding: 5px 27px;
+}
+
+.dcms-link a{}
+.dcms-link a:link{}
+.dcms-link a:visited{}
+.dcms-link a:hover{}
+.dcms-link a:active{}

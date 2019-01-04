@@ -112,3 +112,27 @@ a:active {
     color: #0b151d;
     font-size: 1em;
 }
+
+.dcms-link, .dcms-button {
+    color: #c9e6f0;
+}
+
+.dcms-link:hover, .dcms-button:hover {
+    color: #c9e6f0;
+    text-shadow: 2px 2px #41617b;
+}
+
+.dcms-link a {
+}
+
+.dcms-link a:link {
+}
+
+.dcms-link a:visited {
+}
+
+.dcms-link a:hover {
+}
+
+.dcms-link a:active {
+}
