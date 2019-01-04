@@ -7,3 +7,11 @@ Only the following properties should be defined in this stylesheet:
 - outline-style
 - outline-width
 */
+
+.dcms-hover:hover {
+    outline: 3px double #5e93ff;
+}
+
+.dcms-focus:focus {
+    outline: 5px double #1f70ff;
+}

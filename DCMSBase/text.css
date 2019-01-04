@@ -113,8 +113,9 @@ a:active {
     font-size: 1em;
 }
 
-.dcms-link, .dcms-button {
+.dcms-link, .dcms-button, .dcms-select {
     color: #c9e6f0;
+    font-size: 1em;
 }
 
 .dcms-link:hover, .dcms-button:hover {

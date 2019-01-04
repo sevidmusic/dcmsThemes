@@ -27,6 +27,9 @@ Only the following properties should be defined in this stylesheet:
 
 * {
     box-sizing: border-box;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
 .dcms-admin-panel {
@@ -54,6 +57,10 @@ Only the following properties should be defined in this stylesheet:
  */
 .xdebug-var-dump {
     overflow: auto;
+}
+
+.dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
+    display: block;
 }
 
 .dcms-input-submit {

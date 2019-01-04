@@ -53,7 +53,31 @@ Only the following properties should be defined in this stylesheet:
     border-radius: 20px;
 }
 
-.dcms-input-submit {
-    border: #1f70ff;
-    border-radius: 9px;
+.dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
+    border-radius: 20px;
+    border: 2px double #788598;
+}
+
+.dcms-link, .dcms-button {
+    border-radius: 20px;
+    border: 2px double #788598;
+}
+
+.dcms-link:hover, .dcms-button:hover {
+    border: 2px solid #ffffff;
+}
+
+.dcms-link a {
+}
+
+.dcms-link a:link {
+}
+
+.dcms-link a:visited {
+}
+
+.dcms-link a:hover {
+}
+
+.dcms-link a:active {
 }

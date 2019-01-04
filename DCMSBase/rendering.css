@@ -66,3 +66,8 @@ Only the following properties should be defined in this stylesheet:
 .dcms-input-submit {
     cursor: pointer;
 }
+
+.dcms-link, .dcms-button, .dcms-select, .dcms-link a, .dcms-link a:link, .dcms-link a:visited, .dcms-link a:hover, .dcms-link a:active {
+    display: inline-block;
+    cursor: pointer;
+}

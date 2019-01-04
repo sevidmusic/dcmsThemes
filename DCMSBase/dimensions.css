@@ -88,12 +88,26 @@ Remember that the link style definition order MUST be as follows:
   :active,
 
 @see https://www.w3schools.com/css/tryit.asp?filename=trycss_link for further information. */
-.dcms-link, .dcms-button {
+.dcms-link, .dcms-button, .dcms-select {
     padding: 5px 27px;
 }
 
-.dcms-link a{}
-.dcms-link a:link{}
-.dcms-link a:visited{}
-.dcms-link a:hover{}
-.dcms-link a:active{}
+.dcms-link, .dcms-button, .dcms-select, .dcms-link a, .dcms-link a:link, .dcms-link a:visited, .dcms-link a:hover, .dcms-link a:active {
+    min-width: 34%;
+}
+
+.dcms-link a {
+}
+
+.dcms-link a:link {
+
+}
+
+.dcms-link a:visited {
+}
+
+.dcms-link a:hover {
+}
+
+.dcms-link a:active {
+}

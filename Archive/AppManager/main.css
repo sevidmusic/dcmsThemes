@@ -2,7 +2,6 @@
 #AppManager {
     min-width: 27%;
 }
-
 .am-view-links-container {
     background: #040e21;
     border: 2px double #788598;
@@ -10,8 +9,7 @@
     -moz-border-radius: 20px;
     border-radius: 20px;
     position: sticky;
-    top: 87%;
-    display: block;
+    top: 96%;
     left: 0;
     width: 100%;
     padding: 0 20px;
@@ -24,7 +22,9 @@
 .am-toolbar-container {
     position: sticky;
     top: 11%;
+    background: #000000;
     opacity: .57;
+    padding: 20px;
     z-index: 2;
 }
 
@@ -33,7 +33,7 @@
     float: left;
     width: 87px;
     margin-top: -57px;
-    margin-left: 65.7%;
+    margin-left: 83%;
 }
 
 .am-app-logo-img {
@@ -44,16 +44,4 @@
 
 .am-appInfo-container {
     border-bottom: 2px double #788598;
-}
-
-.app-manager-view-link {
-    width: 269px;
-}
-
-
-.am-advanced-link, .am-simple-link {
-    width: 100%;
-    font-size: 0.5em;
-    border-radius: 0;
-    text-align: center;
 }

@@ -31,3 +31,26 @@ Only the following properties should be defined in this stylesheet:
 .dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
     background: #8EA3B0;
 }
+
+.dcms-link, .dcms-button {
+    background: #040e21;
+}
+
+.dcms-link:hover, .dcms-button:hover {
+    background: #051127;
+}
+
+.dcms-link a {
+}
+
+.dcms-link a:link {
+}
+
+.dcms-link a:visited {
+}
+
+.dcms-link a:hover {
+}
+
+.dcms-link a:active {
+}
