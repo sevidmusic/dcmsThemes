@@ -1,0 +1,21 @@
+
+.action-manager-table, .action-manager-delete-action-button, .action-manager-save-changes-button {
+    width: 100%;
+}
+
+.action-manager-table-row td {
+}
+
+.action-manager-input-text, .action-manager-input-textarea {
+    background: #0b0915 !important;
+    color: #8EA3B0 !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    resize: vertical !important;
+    min-height: 40px;
+}
+
+.action-manager-delete-action-button, .action-manager-save-changes-button {
+    border-radius: 5px !important;
+    margin-top: -6px;
+}

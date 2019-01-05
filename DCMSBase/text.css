@@ -110,6 +110,7 @@ a:active {
 
 .dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
     color: #0b151d;
+    height: 40px;
     font-size: 1em;
 }
 
