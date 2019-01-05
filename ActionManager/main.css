@@ -1,5 +1,5 @@
 
-.action-manager-table, .action-manager-delete-action-button, .action-manager-save-changes-button {
+.action-manager-table, .action-manager-delete-action-button, .action-manager-update-action-button {
     width: 100%;
 }
 
@@ -15,7 +15,7 @@
     min-height: 40px;
 }
 
-.action-manager-delete-action-button, .action-manager-save-changes-button {
+.action-manager-delete-action-button, .action-manager-update-action-button {
     border-radius: 5px !important;
     margin-top: -6px;
 }
