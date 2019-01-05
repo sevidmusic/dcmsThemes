@@ -15,7 +15,7 @@
     text-align: right;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 76px;
+    top: 147px;
     padding: 5px;
 }
 
@@ -38,6 +38,7 @@
     float: left;
     top: 78px;
     margin-top: -49px;
+    width: 100%;
 }
 
 .earnings-msg {

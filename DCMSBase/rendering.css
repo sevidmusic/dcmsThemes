@@ -71,3 +71,7 @@ Only the following properties should be defined in this stylesheet:
     display: inline-block;
     cursor: pointer;
 }
+
+.dcms-drag-handle {
+    cursor: move;
+}

@@ -13,3 +13,8 @@ body {
     padding-bottom: 20px; /* Prevent admin menu from displaying below bottom of browser window */
 }
 
+.admin-panel-button {
+    width: 13%;
+    font-size: .5em !important;
+    min-width: 100px !important;
+}
