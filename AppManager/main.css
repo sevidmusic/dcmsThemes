@@ -43,7 +43,12 @@
 }
 
 .am-appInfo-container {
-    border-bottom: 2px double #788598;
+    background: #18324e;
+    opacity: .87;
+    padding: 1px 37px;
+    border: 2px double #788598;
+    border-radius: 7px;
+    margin-bottom: 20px;
 }
 
 .app-manager-view-link {
