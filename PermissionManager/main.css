@@ -42,5 +42,15 @@
     -webkit-border-radius: 32px;
     -moz-border-radius: 32px;
     border-radius: 32px;
+    opacity: 0.87;
+    background: #040e21;
+}
+
+.permission-manager-assigned-action-checkbox:hover {
+    text-shadow: 2px 2px #8d000a;
+}
+
+.permission-manager-available-action-checkbox:hover {
+    text-shadow: 2px 2px #007a26;
 }
 
