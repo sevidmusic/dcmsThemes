@@ -4,6 +4,21 @@
     border-collapse: collapse;
 }
 
+.permission-manager-create-permission-container {
+}
+
+.permission-manager-create-permission-available-actions {
+    height: 172px;
+    overflow: auto;
+    background: #040e21;
+    border: 2px double #788598;
+    border-radius: 20px;
+}
+
+.permission-manager-sub-content-container {
+    padding: 20px;
+}
+
 .permission-manager-table-row {
     border-bottom: 2px solid #788598;
 }
@@ -29,15 +44,18 @@
 }
 
 
-.permission-manager-assigned-action-checkbox input[type=checkbox], .permission-manager-available-action-checkbox input[type=checkbox] {
-    cursor: pointer;
+.permission-manager-assigned-action-checkbox input[type=checkbox], .permission-manager-available-action-checkbox input[type=checkbox], .permission-manager-create-permission-available-actions input[type=checkbox] {
 }
 
 .permission-manager-assigned-action-checkbox, .permission-manager-available-action-checkbox {
     padding: 3px 20px;
 }
 
-.permission-manager-assigned-action-checkbox:hover, .permission-manager-available-action-checkbox:hover {
+.permission-manager-assigned-action-checkbox input[type=checkbox]:hover, .permission-manager-available-action-checkbox input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.permission-manager-assigned-action-checkbox:hover, .permission-manager-assigned-action-checkbox input[type=checkbox]:hover, .permission-manager-available-action-checkbox:hover, .permission-manager-available-action-checkbox input[type=checkbox]:hover {
     border: 2px solid #788598;
     -webkit-border-radius: 32px;
     -moz-border-radius: 32px;
