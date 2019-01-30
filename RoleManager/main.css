@@ -1,0 +1,74 @@
+
+.role-manager-table, .role-manager-delete-role-button, .role-manager-update-role-button {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.role-manager-create-role-container {
+}
+
+.role-manager-create-role-available-actions {
+    height: 172px;
+    overflow: auto;
+    background: #040e21;
+    border: 2px double #788598;
+    border-radius: 20px;
+}
+
+.role-manager-sub-content-container {
+    padding: 20px;
+}
+
+.role-manager-table-row {
+    border-bottom: 2px solid #788598;
+}
+
+.role-manager-table-cell-content-container {
+    height: 95px;
+    overflow: auto;
+    padding: 3px;
+    resize: vertical;
+}
+
+.role-manager-input-text, .role-manager-input-textarea {
+    background: #0b0915 !important;
+    color: #8EA3B0 !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    resize: vertical !important;
+    min-height: 40px;
+}
+
+.role-manager-delete-role-button, .role-manager-update-role-button {
+    border-radius: 5px !important;
+}
+
+
+.role-manager-assigned-action-checkbox input[type=checkbox], .role-manager-available-action-checkbox input[type=checkbox], .role-manager-create-role-available-actions input[type=checkbox] {
+}
+
+.role-manager-assigned-action-checkbox, .role-manager-available-action-checkbox {
+    padding: 3px 20px;
+}
+
+.role-manager-assigned-action-checkbox input[type=checkbox]:hover, .role-manager-available-action-checkbox input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.role-manager-assigned-action-checkbox:hover, .role-manager-assigned-action-checkbox input[type=checkbox]:hover, .role-manager-available-action-checkbox:hover, .role-manager-available-action-checkbox input[type=checkbox]:hover {
+    border: 2px solid #788598;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    opacity: 0.87;
+    background: #040e21;
+}
+
+.role-manager-assigned-action-checkbox:hover {
+    text-shadow: 2px 2px #8d000a;
+}
+
+.role-manager-available-action-checkbox:hover {
+    text-shadow: 2px 2px #007a26;
+}
+
