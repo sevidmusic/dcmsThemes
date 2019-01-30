@@ -44,18 +44,18 @@
 }
 
 
-.role-manager-assigned-action-checkbox input[type=checkbox], .role-manager-available-action-checkbox input[type=checkbox], .role-manager-create-role-available-actions input[type=checkbox] {
+.role-manager-assigned-permission-checkbox input[type=checkbox], .role-manager-available-permission-checkbox input[type=checkbox], .role-manager-create-role-available-actions input[type=checkbox] {
 }
 
-.role-manager-assigned-action-checkbox, .role-manager-available-action-checkbox {
+.role-manager-assigned-permission-checkbox, .role-manager-available-permission-checkbox {
     padding: 3px 20px;
 }
 
-.role-manager-assigned-action-checkbox input[type=checkbox]:hover, .role-manager-available-action-checkbox input[type=checkbox]:hover {
+.role-manager-assigned-permission-checkbox input[type=checkbox]:hover, .role-manager-available-permission-checkbox input[type=checkbox]:hover {
     cursor: pointer;
 }
 
-.role-manager-assigned-action-checkbox:hover, .role-manager-assigned-action-checkbox input[type=checkbox]:hover, .role-manager-available-action-checkbox:hover, .role-manager-available-action-checkbox input[type=checkbox]:hover {
+.role-manager-assigned-permission-checkbox:hover, .role-manager-assigned-permission-checkbox input[type=checkbox]:hover, .role-manager-available-permission-checkbox:hover, .role-manager-available-permission-checkbox input[type=checkbox]:hover {
     border: 2px solid #788598;
     -webkit-border-radius: 32px;
     -moz-border-radius: 32px;
@@ -64,11 +64,11 @@
     background: #040e21;
 }
 
-.role-manager-assigned-action-checkbox:hover {
+.role-manager-assigned-permission-checkbox:hover {
     text-shadow: 2px 2px #8d000a;
 }
 
-.role-manager-available-action-checkbox:hover {
+.role-manager-available-permission-checkbox:hover {
     text-shadow: 2px 2px #007a26;
 }
 
