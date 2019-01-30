@@ -92,7 +92,7 @@
     border: none;
     color: #92baff;
     font-size: 1.3em;
-    font-family: monospace;
+    /*font-family: monospace;*/
     text-shadow: 3px 3px 3px #324050;
     padding: 20px;
 }

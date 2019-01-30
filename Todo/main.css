@@ -68,7 +68,7 @@
 
 .todo-key-type-txt {
     color: #dadada;
-    font-family: serif;
+    /*font-family: serif;*/
 }
 
 .key-type-ActiveImportant {
@@ -95,7 +95,7 @@
     font-size: 1.3em;
     background: #0b151d;
     color: #ffffff;
-    font-family: monospace;
+    /*font-family: monospace;*/
     padding: 20px;
     border-radius: 20px;
     display: block;

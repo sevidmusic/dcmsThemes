@@ -37,8 +37,69 @@ Only the following properties should be defined in this stylesheet:
 - writing-mode
 */
 
+/* Imported Fonts (i.e., @font-face ...) */
+
+/*
+@font-face {
+    font-family: NAME;
+    src: url(URL);
+}
+ */
+
+@font-face {
+    font-family: arsenal;
+    src: url("fonts/arsenal/Arsenal-Regular.otf");
+}
+
+@font-face {
+    font-family: arsenalBold;
+    src: url("fonts/arsenal/Arsenal-Bold.otf");
+}
+
+@font-face {
+    font-family: arsenalBoldItalic;
+    src: url("fonts/arsenal/Arsenal-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: arsenalItalic;
+    src: url("fonts/arsenal/Arsenal-Italic.otf");
+}
+
+@font-face {
+    font-family: gameshow;
+    src: url("fonts/gameshow/Gameshow.ttf");
+}
+
+@font-face {
+    font-family: cubicCoreMono; /* THIS FONT IS AWESOME!!! */
+    src: url("fonts/cubic-core-mono/CubicCoreMono.ttf");
+}
+
+@font-face {
+    font-family: minimal; /* This font is very chill. */
+    src: url("fonts/minimal/Minimal.ttf");
+}
+
+@font-face {
+    font-family: QuirkyRobot; /* This font is very chill. */
+    src: url("fonts/QuirkyRobot/QuirkyRobot.ttf");
+}
+
+@font-face {
+    font-family: RoundedElegance; /* This font is very chill. */
+    src: url("fonts/Rounded Elegance/Rounded Elegance.ttf");
+}
+
+@font-face {
+    font-family: DancingScript; /* This font is very chill. */
+    src: url("fonts/dancing-script-ot/DancingScript-Regular.otf");
+}
+
+/* End Imported Fonts */
 html {
     font-size: 9px;
+    letter-spacing: 3px;
 }
 
 body {
@@ -51,16 +112,21 @@ body {
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: QuirkyRobot, monospace;
+}
+
 .dcms-admin-panel {
     color: #ffffff;
-    font-family: monospace;
+    font-family: minimal, monospace;
 }
 
 .dcms-drag-handle {
+    font-family: minimal, monospace;
     color: #ffffff;
     text-align: center;
     text-shadow: 2px 2px #41617b;
-    font-size: 0.75em;
+    font-size: 1.2em;
 }
 
 /*
@@ -68,8 +134,10 @@ Note: a:hover MUST come after a:link and a:visited in the CSS definition in orde
  */
 
 a, a:link {
+    font-family: arsenal, monospace;
+    font-size: 2em;
     text-decoration: none;
-    color: #5786aa;
+    color: #445752;
 }
 
 a:visited {
@@ -117,6 +185,7 @@ a:active {
 .dcms-link, .dcms-button, .dcms-select {
     color: #c9e6f0;
     font-size: 1em;
+    font-family: RoundedElegance, monospace;
 }
 
 .dcms-link:hover, .dcms-button:hover {
