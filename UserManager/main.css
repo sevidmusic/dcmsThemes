@@ -27,7 +27,7 @@
     height: 95px;
     overflow: auto;
     padding: 3px;
-    resize: vertical;
+    resize: both;
 }
 
 .user-manager-input-text, .user-manager-input-textarea {
@@ -74,12 +74,12 @@
 
 .user-manager-meta-key-text-input {
     display: inline-block;
-    width: 49.2%;
+    width: 47.8%;
 }
 
 .user-manager-meta-value-text-input {
     display: inline-block;
-    width: 49.2%;
+    width: 47.8%;
 }
 
 .user-manager-meta-data-container {
@@ -92,4 +92,13 @@
 .user-manager-meta-separator {
     margin-bottom: 9px;
     border-top: 1px dashed #808992;
+}
+
+.user-manager-small-text {
+    font-size: .69em;
+}
+
+.user-manager-hint {
+    color: #c9cfb4;
+    font-family: RoundedElegance, monospace;
 }
