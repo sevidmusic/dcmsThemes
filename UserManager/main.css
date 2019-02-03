@@ -72,3 +72,24 @@
     text-shadow: 2px 2px #007a26;
 }
 
+.user-manager-meta-key-text-input {
+    display: inline-block;
+    width: 49.2%;
+}
+
+.user-manager-meta-value-text-input {
+    display: inline-block;
+    width: 49.2%;
+}
+
+.user-manager-meta-data-container {
+    padding: 2px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.user-manager-meta-separator {
+    margin-bottom: 9px;
+    border-top: 1px dashed #808992;
+}
