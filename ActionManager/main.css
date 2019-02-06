@@ -11,7 +11,7 @@
     color: #8EA3B0 !important;
     border-radius: 5px !important;
     width: 100% !important;
-    resize: vertical !important;
+    resize: both !important;
     min-height: 40px;
 }
 

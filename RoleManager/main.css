@@ -27,7 +27,7 @@
     height: 95px;
     overflow: auto;
     padding: 3px;
-    resize: vertical;
+    resize: both;
 }
 
 .role-manager-input-text, .role-manager-input-textarea {

@@ -27,7 +27,7 @@
     height: 95px;
     overflow: auto;
     padding: 3px;
-    resize: vertical;
+    resize: both;
 }
 
 .permission-manager-input-text, .permission-manager-input-textarea {
@@ -35,7 +35,7 @@
     color: #8EA3B0 !important;
     border-radius: 5px !important;
     width: 100% !important;
-    resize: vertical !important;
+    /* resize: vertical !important; */
     min-height: 40px;
 }
 
