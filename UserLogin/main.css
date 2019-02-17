@@ -30,24 +30,26 @@
 .user-login-user-name-text-input, .user-login-user-password-input, .user-login-submit-button, .user-logout-submit-button {
     display: inline-block;
     font-size: .5em;
-    z-index: 0;
-    background: none;
+    /* z-index: 10; */
+    /* background: red; */
     border: none;
     margin-top: 11px;
+    /* float: right; */
 }
 
 
 .user-login-submit-button, .user-logout-submit-button {
     font-size: 1em;
-    width: 35%;
+    /* max-width: 10px; */
     display: inline-block;
     z-index: 0;
     background: none;
     border: none;
-    margin-top: 11px;
-    position: absolute;
-    top: 0;
-    right: -10%;
+    margin-top: 15px;
+    float: right;
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: -10%; */
     /* background: red; */
 }
 
