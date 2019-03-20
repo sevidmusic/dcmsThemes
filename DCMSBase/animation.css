@@ -16,3 +16,32 @@ Only the following properties should be defined in this stylesheet:
 - transition-property
 - transition-timing-function
 */
+
+.dcms-loader {
+    /*
+    MORE MELLOW
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 1.42s linear infinite;
+    */
+    /* LESS MELLOW */
+    -webkit-animation: spin .024s linear infinite;
+    animation: spin .024s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -58,3 +58,7 @@ body {
 
 .dcms-link a:active {
 }
+
+.dcms-loader {
+    background: #000000; /* Could be an image instead of a color : )*/
+}

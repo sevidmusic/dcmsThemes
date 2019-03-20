@@ -81,3 +81,19 @@ Only the following properties should be defined in this stylesheet:
 
 .dcms-link a:active {
 }
+
+.dcms-loader {
+    /* MORE MELLOW:
+    border: 6px double lime;
+    border-radius: 21%;
+    border-top: 6px double #202021;
+    border-right: 6px double limegreen;
+    border-bottom: 6px double #303030;
+    */
+    /* LESS MELLOW */
+    border: 46px double lime;
+    border-radius: 21%;
+    border-top: 6px double aqua;
+    border-right: 4px double limegreen;
+    border-bottom: 6px double orange;
+}

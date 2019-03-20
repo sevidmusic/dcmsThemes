@@ -44,3 +44,8 @@ Only the following properties should be defined in this stylesheet:
     }
 }
 
+.dcms-loader {
+    position: fixed;
+    top: 47%;
+    left: 45%;
+}
