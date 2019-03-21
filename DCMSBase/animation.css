@@ -23,9 +23,13 @@ Only the following properties should be defined in this stylesheet:
     -webkit-animation: spin 2s linear infinite;
     animation: spin 1.42s linear infinite;
     */
-    /* LESS MELLOW */
+    /* LESS MELLOW *
     -webkit-animation: spin .024s linear infinite;
     animation: spin .024s linear infinite;
+    */
+    /* new */
+    -webkit-animation: spin 2s ease infinite;
+    animation: spin 2s ease infinite;
 }
 
 @-webkit-keyframes spin {

@@ -118,7 +118,11 @@ Remember that the link style definition order MUST be as follows:
     width: 120px;
     height: 120px;
     */
-    /* LESS MELLOW */
+    /* LESS MELLOW *
     width: 40px;
     height: 22px;
+    */
+    /* new */
+    width: 62px;
+    height: 62px;
 }

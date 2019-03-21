@@ -90,10 +90,17 @@ Only the following properties should be defined in this stylesheet:
     border-right: 6px double limegreen;
     border-bottom: 6px double #303030;
     */
-    /* LESS MELLOW */
+    /* LESS MELLOW *
     border: 46px double lime;
     border-radius: 21%;
     border-top: 6px double aqua;
     border-right: 4px double limegreen;
     border-bottom: 6px double orange;
+    */
+    /* new */
+    border: 3px double #18623b;
+    border-radius: 72%;
+    border-top: 3px double #185a33;
+    border-right: 3px double #123e2e;
+    border-bottom: 3px double #11372a;
 }

@@ -60,5 +60,7 @@ body {
 }
 
 .dcms-loader {
-    background: #000000; /* Could be an image instead of a color : )*/
+    background-image: url("images/DcmsLoaderBg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
