@@ -24,22 +24,22 @@ Only the following properties should be defined in this stylesheet:
     }
 
     .dcms-admin-panel-pos1 {
-        top: 4px;
+        top: 72px;
         left: 3px;
     }
 
     .dcms-admin-panel-pos2 {
-        top: 391px;
+        top: 459px;
         left: 3px;
     }
 
     .dcms-admin-panel-pos3 {
-        top: 4px;
+        top: 72px;
         left: 63.86%;
     }
 
     .dcms-admin-panel-pos4 {
-        top: 391px;
+        top: 459px;
         left: 63.86%;
     }
 }

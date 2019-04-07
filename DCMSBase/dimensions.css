@@ -48,7 +48,7 @@ Only the following properties should be defined in this stylesheet:
 
     .dcms-admin-panel-pos2 {
         width: 63.62%;
-        height: 53%;
+        height: 38%;
     }
 
     .dcms-admin-panel-pos3 {
@@ -58,7 +58,7 @@ Only the following properties should be defined in this stylesheet:
 
     .dcms-admin-panel-pos4 {
         width: 36%;
-        height: 53%;
+        height: 38%;
     }
 }
 

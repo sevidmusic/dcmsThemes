@@ -17,17 +17,11 @@ Only the following properties should be defined in this stylesheet:
 - transition-timing-function
 */
 
+.clear-animation {
+    animation: none;
+}
+
 .dcms-loader {
-    /*
-    MORE MELLOW
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 1.42s linear infinite;
-    */
-    /* LESS MELLOW *
-    -webkit-animation: spin .024s linear infinite;
-    animation: spin .024s linear infinite;
-    */
-    /* new */
     -webkit-animation: spin 2s ease infinite;
     animation: spin 2s ease infinite;
 }
@@ -51,19 +45,63 @@ Only the following properties should be defined in this stylesheet:
 }
 
 .dcms-admin-panel-pos1 {
-    animation: easeInAdminPanel 2s linear 1;
+    -webkit-animation: easeInAdminPanel 0.5s linear 1;
+    -moz-animation: easeInAdminPanel 0.5s linear 1;
+    animation: easeInAdminPanel 0.5s linear 1;
 }
 
 .dcms-admin-panel-pos4 {
-    animation: easeInAdminPanel 2.5s ease 1;
+    -webkit-animation: easeInAdminPanel 1s linear 1;
+    -moz-animation: easeInAdminPanel 1s linear 1;
+    animation: easeInAdminPanel 1s ease 1;
 }
 
 .dcms-admin-panel-pos2 {
-    animation: easeInAdminPanel 3s linear 1;
+    -webkit-animation: easeInAdminPanel 1.5s linear 1;
+    -moz-animation: easeInAdminPanel 1.5s linear 1;
+    animation: easeInAdminPanel 1.5s linear 1;
 }
 
 .dcms-admin-panel-pos3 {
-    animation: easeInAdminPanel 3.5s ease 1;
+    -webkit-animation: easeInAdminPanel 2s linear 1;
+    -moz-animation: easeInAdminPanel 2s linear 1;
+    animation: easeInAdminPanel 2s ease 1;
+}
+
+.dcms-solo-admin-panel {
+    animation: 5s easeInSoloAdminPanel ease 1;
+}
+
+@-webkit-keyframes easeInAdminPanel {
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+    87% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.97;
+    }
+}
+
+@-moz-keyframes easeInAdminPanel {
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+    87% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.97;
+    }
 }
 
 @keyframes easeInAdminPanel {
@@ -74,7 +112,21 @@ Only the following properties should be defined in this stylesheet:
     70% {
         opacity: 0;
     }
+    87% {
+        opacity: 0.5;
+    }
     100% {
         opacity: 0.97;
+    }
+}
+
+@keyframes easeInSoloAdminPanel {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 98%;
+        opacity: .97;
     }
 }
