@@ -49,3 +49,32 @@ Only the following properties should be defined in this stylesheet:
         transform: rotate(360deg);
     }
 }
+
+.dcms-admin-panel-pos1 {
+    animation: easeInAdminPanel 2s linear 1;
+}
+
+.dcms-admin-panel-pos4 {
+    animation: easeInAdminPanel 2.5s ease 1;
+}
+
+.dcms-admin-panel-pos2 {
+    animation: easeInAdminPanel 3s linear 1;
+}
+
+.dcms-admin-panel-pos3 {
+    animation: easeInAdminPanel 3.5s ease 1;
+}
+
+@keyframes easeInAdminPanel {
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.97;
+    }
+}
