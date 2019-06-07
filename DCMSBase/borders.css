@@ -104,3 +104,8 @@ Only the following properties should be defined in this stylesheet:
     border-right: 3px double #123e2e;
     border-bottom: 3px double #11372a;
 }
+
+.dcms-app-region {
+    /*border: 3px double red;
+    min-height: 50px;*/
+}
