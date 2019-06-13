@@ -1,0 +1,105 @@
+.todo-ajax-output {
+    padding: 20px;
+}
+
+.todo-count {
+    color: #1f70ff;
+}
+
+.todo-list {
+    /* background: #0b151d; */
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+
+.todo-list-item {
+    list-style: decimal;
+    padding: 20px;
+    border: 3px solid #2c343d;
+    border-radius: 20px;
+    margin: 20px;
+    background: #030808;
+    color: #ffffff;
+    font-size: 1.42em;
+    overflow: auto;
+}
+
+.todo-from-file-txt {
+    color: #1f70ff;
+}
+
+.todo-important-from-file-txt {
+    color: #d4000b;
+    font-size: 1.2em;
+}
+
+.todo-important-txt, .key-type-ActiveImportant {
+    color: #ff680b;
+    font-size: 1.42em;
+    text-shadow: 2px 2px 5px #010229;
+    display: block;
+}
+
+.todo-line-text {
+    color: #b2b2b2;
+}
+
+.todo-source-file-path {
+    color: #92baff;
+}
+
+.todo-active {
+    background: #000000;
+    background: -moz-linear-gradient(left, rgb(8, 15, 25) 0%, rgba(125, 185, 232, 0) 100%);
+    background: -webkit-linear-gradient(left, rgb(8, 15, 25) 0%, rgba(125, 185, 232, 0) 100%);
+    background: linear-gradient(to right, rgb(4, 7, 16) 0%, rgba(125, 185, 232, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e242f', endColorstr='#007db9e8', GradientType=1);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+    opacity: .87;
+}
+
+.todo-type-txt {
+    color: #8EA3B0;
+}
+
+.todo-key-type-txt {
+    font-size: .7em;
+}
+
+.todo-key-type-txt {
+    color: #dadada;
+    /*font-family: serif;*/
+}
+
+.key-type-ActiveImportant {
+    color: #61ffb0;
+    text-shadow: 2px 2px 15px #a80322;
+}
+
+.key-type-Important {
+    color: #a80322;
+    text-shadow: 2px 2px 5px #0d0003;
+}
+
+.key-type-Active {
+    color: #61ffb0;
+}
+
+.key-type-General {
+    color: #ffffff;
+}
+
+.todo-editable-todo-text {
+    width: 100%;
+    height: 80px;
+    font-size: .5em;
+    background: #0b151d;
+    color: #a4b6c1;
+    /*font-family: monospace;*/
+    padding: 20px;
+    margin-top: 42px;
+    border-radius: 20px;
+    display: block;
+}

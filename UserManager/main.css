@@ -1,0 +1,104 @@
+
+.user-manager-table, .user-manager-delete-user-button, .user-manager-update-user-button {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-manager-create-user-container {
+}
+
+.user-manager-create-user-available-actions {
+    height: 172px;
+    overflow: auto;
+    background: #040e21;
+    border: 2px double #788598;
+    border-radius: 20px;
+}
+
+.user-manager-sub-content-container {
+    padding: 20px;
+}
+
+.user-manager-table-row {
+    border-bottom: 2px solid #788598;
+}
+
+.user-manager-table-cell-content-container {
+    height: 187px;
+    overflow: auto;
+    padding: 3px;
+    resize: both;
+}
+
+.user-manager-input-text, .user-manager-input-textarea {
+    background: #0b0915 !important;
+    color: #8EA3B0 !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    resize: vertical !important;
+    min-height: 40px;
+}
+
+.user-manager-delete-user-button, .user-manager-update-user-button {
+    border-radius: 5px !important;
+}
+
+
+.user-manager-assigned-permission-checkbox input[type=checkbox], .user-manager-available-permission-checkbox input[type=checkbox], .user-manager-create-user-available-actions input[type=checkbox] {
+}
+
+.user-manager-assigned-permission-checkbox, .user-manager-available-permission-checkbox {
+    padding: 3px 20px;
+}
+
+.user-manager-assigned-permission-checkbox input[type=checkbox]:hover, .user-manager-available-permission-checkbox input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.user-manager-assigned-permission-checkbox:hover, .user-manager-assigned-permission-checkbox input[type=checkbox]:hover, .user-manager-available-permission-checkbox:hover, .user-manager-available-permission-checkbox input[type=checkbox]:hover {
+    border: 2px solid #788598;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    opacity: 0.87;
+    background: #040e21;
+}
+
+.user-manager-assigned-permission-checkbox:hover {
+    text-shadow: 2px 2px #8d000a;
+}
+
+.user-manager-available-permission-checkbox:hover {
+    text-shadow: 2px 2px #007a26;
+}
+
+.user-manager-meta-key-text-input {
+    display: inline-block;
+    width: 47.8%;
+}
+
+.user-manager-meta-value-text-input {
+    display: inline-block;
+    width: 47.8%;
+}
+
+.user-manager-meta-data-container {
+    padding: 2px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.user-manager-meta-separator {
+    margin-bottom: 9px;
+    border-top: 1px dashed #808992;
+}
+
+.user-manager-small-text {
+    font-size: .69em;
+}
+
+.user-manager-hint {
+    color: #c9cfb4;
+    font-family: RoundedElegance, monospace;
+}

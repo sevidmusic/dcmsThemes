@@ -1,0 +1,135 @@
+
+.earnings-key-text {
+    color: #DDDDDD;
+}
+
+.earnings-value-text {
+    color: #1f70ff;
+}
+
+#mainMenu {
+    top: 40px;
+}
+
+#earningsClock {
+    text-align: right;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 147px;
+    padding: 5px;
+}
+
+.earnings-button {
+    text-align: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: #000000;
+    color: #ffffff;
+}
+
+.earnings-button:hover {
+    border: 3px solid #1f70ff;
+    cursor: pointer;
+}
+
+#punchButton {
+    float: left;
+    top: 78px;
+    margin-top: -49px;
+    width: 100%;
+}
+
+.earnings-msg {
+    margin-bottom: 0;
+}
+
+/* Invoice Styles */
+
+.timeCard-invoice-table {
+    background: #000000;
+    border: 3px solid #ffffff;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 0.7em;
+}
+
+.timeCard-invoice-table-tr {
+}
+
+.timeCard-invoice-table-th {
+}
+
+.timeCard-invoice-table-td {
+    border: 2px solid #1f70ff;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.timeCard-invoice-table-date-col {
+}
+
+.timeCard-invoice-table-punches-col {
+}
+
+.timeCard-invoice-table-timeWorked-col {
+}
+
+.timeCard-invoice-table-moneyEarned-col {
+}
+
+.timeCard-invoice-table-moneyEarnedTowardDebt-col {
+}
+
+.timeCard-selectRange {
+    background: none;
+    border: none;
+    color: #92baff;
+    font-size: 1.3em;
+    /*font-family: monospace;*/
+    text-shadow: 3px 3px 3px #324050;
+    padding: 20px;
+}
+
+.earnings-monetary-value {
+    color: #61ffb0;
+}
+
+.earnings-small-text {
+    font-size: .69em;
+}
+
+.earnings-negative-value {
+    color: #c2282b;
+}
+
+.earnings-emphasized-text {
+    font-size: 1.1em;
+    border-radius: 20px;
+    background: #494949;
+    padding: 10px;
+}
+
+
+.earnings-sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+}
+
+.earnings-sticky-menu {
+    font-size: .5em;
+    background: #000000;
+    border: 1px solid #ffffff;
+    padding: 5px;
+}
+
+.earnings-sticky-menu-link {
+    margin-right: 20px;
+}

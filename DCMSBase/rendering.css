@@ -1,0 +1,85 @@
+/**
+Only the following properties should be defined in this stylesheet:
+
+- backface-visibility
+- box-decoration-break
+- box-shadow
+- box-sizing
+- cursor
+- display
+- mix-blend-mode
+- isolation
+- opacity
+- overflow
+- overflow-x
+- overflow-y
+- perspective
+- perspective-origin
+- transform
+- transform-origin
+- transform-style
+- z-index
+- visibility
+- content
+- counter-increment
+- counter-reset
+*/
+
+* {
+    box-sizing: border-box;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.dcms-admin-panel {
+    overflow: auto;
+    opacity: 0.97;
+}
+
+[draggable=true] {
+    cursor: move;
+    z-index: 5000;
+}
+
+[draggable=false] {
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 959px) {
+    .dcms-drag-handle {
+        display: none;
+    }
+}
+
+/**
+ * Debug styles.
+ */
+.xdebug-var-dump {
+    overflow: auto;
+}
+
+.dcms-input-text, .dcms-input-textarea, .dcms-input-submit {
+    display: block;
+}
+
+.dcms-input-submit {
+    cursor: pointer;
+}
+
+.dcms-link, .dcms-button, .dcms-select, .dcms-link a, .dcms-link a:link, .dcms-link a:visited, .dcms-link a:hover, .dcms-link a:active {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dcms-drag-handle {
+    cursor: move;
+}
+
+/* Fix browser styles for autofill input elements, for instance in Chrome. */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #8EA3B0 inset !important;
+}
