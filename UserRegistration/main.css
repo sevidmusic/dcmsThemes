@@ -1,0 +1,6 @@
+.user-registration-container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+    animation: 1s easeInAdminPanel ease 1; /* This function is defined in DCMSBase, therefore DCMSBase is required for this to work. @todo : In DCMSBase, create a dcms-ease-in class that can be used to add this effect to any element so the animation can be completely handled by the DCMSBase theme.*/
+}
