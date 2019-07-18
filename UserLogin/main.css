@@ -40,22 +40,25 @@
 
 .user-login-submit-button, .user-logout-submit-button {
     font-size: 1em;
-    /* max-width: 10px; */
-    display: inline-block;
+    letter-spacing: 3px;
+    font-family: arsenal, monospace;
+    color: #445752;
+    /* display: inline-block; */
     z-index: 0;
     background: none;
     border: none;
     margin-top: 15px;
-    float: right;
-    /* position: absolute; */
-    /* top: 0; */
-    /* right: -10%; */
-    /* background: red; */
 }
 
 .user-login-submit-button:focus, .user-login-submit-button:hover, .user-logout-submit-button:focus, .user-logout-submit-button:hover {
     border: none;
     background: none;
     outline: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.user-logout-submit-button {
+    margin-left: 65%;
 }
 
