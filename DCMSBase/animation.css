@@ -72,15 +72,60 @@ Only the following properties should be defined in this stylesheet:
     animation: 5s easeInSoloAdminPanel ease 1;
 }
 
+/**
+ * This class can be used to apply the slowest supported fade in effect to the elements it is assigned to.
+ */
+.dcms-ease-in-opacity-slowest {
+    -webkit-animation: easeInAdminPanel 4.2s linear 1;
+    -moz-animation: easeInAdminPanel 4.2s linear 1;
+    animation: easeInAdminPanel 4.2s ease 1;
+}
+
+/**
+ * This class can be used to apply a slow fade in effect to the elements it is assigned to.
+ */
+.dcms-ease-in-opacity-slow {
+    -webkit-animation: easeInAdminPanel 3.2s linear 1;
+    -moz-animation: easeInAdminPanel 3.2s linear 1;
+    animation: easeInAdminPanel 3.2s ease 1;
+}
+
+/**
+ * This class can be used to apply a moderate fade in effect to the elements it is assigned to.
+ */
+.dcms-ease-in-opacity-moderate {
+    -webkit-animation: easeInAdminPanel 1.9s linear 1;
+    -moz-animation: easeInAdminPanel 1.9s linear 1;
+    animation: easeInAdminPanel 1.9s ease 1;
+}
+
+/**
+ * This class can be used to apply a fast fade in effect to the elements it is assigned to.
+ */
+.dcms-ease-in-opacity-fast {
+    -webkit-animation: easeInAdminPanel .9s linear 1;
+    -moz-animation: easeInAdminPanel .9s linear 1;
+    animation: easeInAdminPanel .9s ease 1;
+}
+
+/**
+ * This class can be used to apply a fastest supported fade in effect to the elements it is assigned to.
+ */
+.dcms-ease-in-opacity-fastest {
+    -webkit-animation: easeInAdminPanel .3s linear 1;
+    -moz-animation: easeInAdminPanel .3s linear 1;
+    animation: easeInAdminPanel .3s ease 1;
+}
+
 @-webkit-keyframes easeInAdminPanel {
     0% {
         opacity: 0;
     }
 
-    70% {
+    33% {
         opacity: 0;
     }
-    87% {
+    66% {
         opacity: 0.5;
     }
     100% {
@@ -93,10 +138,10 @@ Only the following properties should be defined in this stylesheet:
         opacity: 0;
     }
 
-    70% {
+    33% {
         opacity: 0;
     }
-    87% {
+    66% {
         opacity: 0.5;
     }
     100% {
@@ -109,10 +154,10 @@ Only the following properties should be defined in this stylesheet:
         opacity: 0;
     }
 
-    70% {
+    33% {
         opacity: 0;
     }
-    87% {
+    66% {
         opacity: 0.5;
     }
     100% {
