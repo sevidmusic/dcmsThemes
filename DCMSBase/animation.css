@@ -122,14 +122,14 @@ Only the following properties should be defined in this stylesheet:
         opacity: 0;
     }
 
-    33% {
+    47% {
         opacity: 0;
     }
     66% {
-        opacity: 0.5;
+        opacity: 0.6;
     }
     100% {
-        opacity: 0.97;
+        opacity: 1;
     }
 }
 
@@ -138,14 +138,14 @@ Only the following properties should be defined in this stylesheet:
         opacity: 0;
     }
 
-    33% {
+    47% {
         opacity: 0;
     }
     66% {
-        opacity: 0.5;
+        opacity: 0.6;
     }
     100% {
-        opacity: 0.97;
+        opacity: 1;
     }
 }
 
@@ -154,14 +154,14 @@ Only the following properties should be defined in this stylesheet:
         opacity: 0;
     }
 
-    33% {
+    47% {
         opacity: 0;
     }
     66% {
-        opacity: 0.5;
+        opacity: 0.6;
     }
     100% {
-        opacity: 0.97;
+        opacity: 1;
     }
 }
 

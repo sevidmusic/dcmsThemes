@@ -126,3 +126,9 @@ Remember that the link style definition order MUST be as follows:
     width: 62px;
     height: 62px;
 }
+
+.dcms-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
