@@ -109,3 +109,8 @@ Only the following properties should be defined in this stylesheet:
     /*border: 3px double red;
     min-height: 50px;*/
 }
+
+.dcms-table-cell {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}

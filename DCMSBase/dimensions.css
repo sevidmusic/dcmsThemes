@@ -133,6 +133,18 @@ Remember that the link style definition order MUST be as follows:
     padding: 20px;
 }
 
+.dcms-table {
+    padding: 5px;
+}
+
+.dcms-table-row {
+    padding: 10px;
+}
+
+.dcms-table-cell {
+    padding: 20px;
+}
+
 .dcms-table-cell-no-wrap tr td:last-child {
     width: 1%;
 }
