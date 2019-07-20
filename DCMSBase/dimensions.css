@@ -132,3 +132,7 @@ Remember that the link style definition order MUST be as follows:
     margin: 0 auto;
     padding: 20px;
 }
+
+.dcms-table-cell-no-wrap tr td:last-child {
+    width: 1%;
+}

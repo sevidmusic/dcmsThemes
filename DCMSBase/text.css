@@ -208,3 +208,7 @@ a:active {
 
 .dcms-link a:active {
 }
+
+.dcms-table-cell-no-wrap {
+    white-space: nowrap;
+}
